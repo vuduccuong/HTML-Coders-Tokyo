@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>innerHTML</h1>
+    <p class="foo">1</p>
+    <p class="fooo">2</p>
+    <p class="foo">3</p>
+    <p class="foo">4</p>
+    <p class="foo">5</p>
+    
+</body>
+
+<script>
+var listP = document.getElementsByTagName('p');
+var html = "<a href='https://school.coders.tokyo/courses/5b8a1d3c1a383514ba715fc9/lessons/5b8a27401a383514ba71600b'>Coders.Tokyo</a>"
+for(var item of listP){
+    if(item.className === 'foo'){
+    var content = item.textContent+html;
+     item.innerHTML = content;
+    }
+}
+</script>
+</html>
