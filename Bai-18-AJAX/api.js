@@ -1,3 +1,16 @@
+//Create New Comment
+function createNewComment(data) {
+    axios.post('http://localhost:3000/comments', data)
+        .then(() => {
+            console.log('Created');
+        })
+        .catch(error => {
+            console.log(error);
+        });
+};
+
+
+//Load All Comment
 function loadAllPostId() {
     // Make a request for a user with a given ID
     axios.get('http://localhost:3000/posts')
@@ -33,13 +46,24 @@ function deleteComment(id) {
         });
 };
 
+//Get Comment By Id
+function getCommentById(id) {
+    alert(id);
+    axios.get('http://localhost:3000/comments/' + id)
+        .then(response => {
+            bindDataByID(response.data)
+        })
+        .catch(error => {
+            console.log(error);
+        });
+};
 
 //Render All Comment
 function render(arr) {
     let html = document.getElementById('data');
 
     let content = arr.map(item => {
-        return "<tr><td><input type='checkbox' value='"+item.id+"' id='idComment'></td><td>" + item.id + "</td><td>" + item.body + "</td><td>" + item.postId + "</td></tr>";
+        return "<tr class='enventOnClick' data-id='"+item.id+"'><td><input type='checkbox' value='" + item.id + "'></td><td>" + item.id + "</td><td>" + item.body + "</td><td>" + item.postId + "</td></tr>";
     });
 
     html.innerHTML = content.join('');
@@ -54,3 +78,9 @@ function renderPostId(arr) {
 
     html.innerHTML = content.join('');
 }
+
+function bindDataByID(item) {
+    document.getElementById('id').value = item.id;
+    document.getElementById('body').value = item.body;
+    document.getElementById('postId').value = item.postId;
+};

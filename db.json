@@ -36,7 +36,8 @@
       "id": 4,
       "body": "some comment 4",
       "postId": 2
-    },{
+    },
+    {
       "id": 5,
       "body": "some comment 5",
       "postId": 3
@@ -45,6 +46,16 @@
       "id": 6,
       "body": "some comment 6",
       "postId": 3
+    },
+    {
+      "id": "7",
+      "body": "createNewComment",
+      "postId": "2"
+    },
+    {
+      "id": "8",
+      "body": "some body 8",
+      "postId": "1"
     }
   ],
   "profile": {
