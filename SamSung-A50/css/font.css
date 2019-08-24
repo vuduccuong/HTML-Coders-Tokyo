@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'rbt-m';
+	src: url('../fonts/roboto/Roboto-Medium.eot');
+	src: url('../fonts/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+	url('../fonts/roboto/Roboto-Medium.woff') format('woff'),
+	url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'rbt-rg';
+	src: url('../fonts/roboto/Roboto-Regular.eot');
+	src: url('../fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+	url('../fonts/roboto/Roboto-Regular.woff') format('woff'),
+	url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'rbt-b';
+	src: url('../fonts/roboto/Roboto-Bold.eot');
+	src: url('../fonts/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Roboto-Bold.woff2') format('woff2'),
+	url('../fonts/roboto/Roboto-Bold.woff') format('woff'),
+	url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+/*===============================================================SAMSUNG=============================================================================*/
+@font-face {
+    font-family: 'ss-400';
+    src: url('../fonts/samsung/SamsungOne-400.eot');
+    src: url('../fonts/samsung/SamsungOne-400.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/samsung/SamsungOne-400.woff2') format('woff2'),
+        url('../fonts/samsung/SamsungOne-400.woff') format('woff'),
+        url('../fonts/samsung/SamsungOne-400.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'ss-rg';
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/samsung/Samsung Sharp Sans Regular Regular'),
+ url('../fonts/samsung/SamsungSharpSansRegular-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ss-b';
+    src: url('../fonts/samsung/iCielSamsungSharpSans-Bold.eot');
+    src: url('../fonts/samsung/iCielSamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/samsung/iCielSamsungSharpSans-Bold.woff2') format('woff2'),
+        url('../fonts/samsung/iCielSamsungSharpSans-Bold.woff') format('woff'),
+        url('../fonts/samsung/iCielSamsungSharpSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+/*@font-face {
+	font-family: 'sams-b';
+	src: url('../fonts/samsung/SamsungSharpSans-Bold.eot');
+	src: url('../fonts/samsung/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/samsung/SamsungSharpSans-Bold.woff2') format('woff2'),
+	url('../fonts/samsung/SamsungSharpSans-Bold.woff') format('woff'),
+	url('../fonts/samsung/SamsungSharpSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}*/
+
+@font-face {
+	font-family: 'ss-700';
+	src: url('../fonts/samsung/SamsungOne-700.eot');
+	src: url('../fonts/samsung/SamsungOne-700.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/samsung/SamsungOne-700.woff2') format('woff2'),
+	url('../fonts/samsung/SamsungOne-700.woff') format('woff'),
+	url('../fonts/samsung/SamsungOne-700.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
