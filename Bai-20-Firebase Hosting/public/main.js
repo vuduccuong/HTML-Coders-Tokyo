@@ -33,7 +33,7 @@ function onSave(){
 function render(friends){
  let html = document.getElementById('table-myFriend');
  let content = friends.map(item=>{
-     return "<tr><td>"+item.name+"</td><td>"+item.age+"</td><td>"+item.address+"</td></tr>";
+     return "<tr><td>"+item.name+"</td><td>"+item.age+"</td>"+item.address+"</tr>";
  })
 
  html.innerHTML = content.join('');
